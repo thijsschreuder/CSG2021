@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>tabellen</title>
+        <!--
+        <link rel="stylesheet" href="tabellen.css">
+        -->
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th colspan="3" class="toelichting"><em>thead</em>: titelrij van de tabel</th>
+                </tr>
+                <th></th>
+                    <th>kolom 1</th>
+                    <th>kolom 2</th>
+                    <th>kolom 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="5" class="toelichting" id="verticaal"><em>tbody</em>: de tabelgegevens</td>
+                </tr>
+                <tr>
+                    <td>A1</td>
+                    <td>B1</td>
+                    <td>C1</td>
+                </tr>
+                <tr class="benadruk">
+                    <td>A2</td>
+                    <td>B2</td>
+                    <td>B3</td>
+                </tr>
+                <tr>
+                    <td>A3</td>
+                    <td>B3</td>
+                    <td>C3</td>
+                </tr>
+                <tr>
+                    <td>A4</td>
+                    <td>B4</td>
+                    <td class="benadruk">C4</td>
+                </tr>
+            </tbody>
+        </table>  
+        <h1>een tabel in de praktijk (inclusief footer)</h1>
+        <table>
+            <thead>
+                <th>naam</th>
+                <th>woonplaats</th>
+                <th>leeftijd</th>
+                <th>nickname</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Achmed</td>
+                    <td>Adorp</td>
+                    <td>15</td>
+                    <td>Baas A</td>
+                </tr>
+                <tr>
+                    <td>Bastiaan</td>
+                    <td>Beverwijk</td>
+                    <td>16</td>
+                    <td>Bas B</td>
+                </tr>
+                <tr>
+                    <td>Cindy</td>
+                    <td>Celand</td>
+                    <td><em>geheim</em></td>
+                    <td>CeeDee</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th colspan="4">Een header heb je altijd, een footer komt minder vaak voor.</th>
+            </tfoot>
+        </table>
+    </body>
+</html>
