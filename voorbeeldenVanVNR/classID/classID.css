@@ -15,6 +15,11 @@ body {
     background-color: white;
 }
 
+#uniek {
+    background-color: darkred;
+    color: salmon;
+}
+
 .vierkant {
     width: 200px;
     height: 200px;
@@ -23,11 +28,7 @@ body {
     padding: 10px;
 }
 
-#uniek {
-    background-color: darkred;
-    color: salmon;
-}
-
 #uniek h2 {
     text-transform: uppercase;
+    color: cornsilk;
 }
